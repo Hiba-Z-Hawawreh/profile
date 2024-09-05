@@ -18,14 +18,14 @@ header {
 .profile-img {
     margin-top: 50px;
     margin-left: 440px;
-    width: 300px; /* عرض الصورة */
-    height: 400px; /* ارتفاع الصورة */
-    object-fit: cover; /* لضبط الصورة داخل الإطار */
-    border-radius: 15px; /* زوايا دائرية للإطار */
-    border: 5px solid #fff; /* إطار أبيض حول الصورة */
+    width: 300px;
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 15px; 
+    border: 5px solid #fff;
     box-shadow: -15px 15px 30px rgba(0, 0, 0, 0.4), 
-                5px 5px 10px rgba(0, 0, 0, 0.2); /* ظلال متعددة لزيادة التأثير */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثيرات انتقالية */
+                5px 5px 10px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .text {
@@ -42,7 +42,7 @@ nav {
     padding: 10px 0;
     top: 50px;
     width: 100%;
-    z-index: 1000; /* لجعل شريط التنقل فوق المحتوى */
+    z-index: 1000; 
 }
 
 nav ul {
@@ -55,7 +55,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px; /* مسافة بين العناصر */
+    margin: 0 15px;
 
 }
 
@@ -78,11 +78,11 @@ nav ul li a:hover {
 .profile-intro {
     width: 300px;
     height: 300px;
-    margin: 20px 0; /* تخلص من المسافة العليا الكبيرة */
+    margin: 20px 0; 
     padding: 20px;
     text-align: left; 
-    float: right; /* يحرك العنصر لجهة اليسار */
-    margin-right: 200px; /* مسافة من الجانب الأيسر لتجنب التداخل مع الصورة */
+    float: right; 
+    margin-right: 200px;
     margin-top: 35px;
 }
 .profile-intro p{
