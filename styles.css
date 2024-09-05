@@ -1,0 +1,226 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfbfb;
+
+}
+
+
+header {
+    background-color: #fcfbfb;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    color: #070707;
+}
+.profile-img {
+    margin-top: 50px;
+    margin-left: 440px;
+    width: 300px; /* عرض الصورة */
+    height: 400px; /* ارتفاع الصورة */
+    object-fit: cover; /* لضبط الصورة داخل الإطار */
+    border-radius: 15px; /* زوايا دائرية للإطار */
+    border: 5px solid #fff; /* إطار أبيض حول الصورة */
+    box-shadow: -15px 15px 30px rgba(0, 0, 0, 0.4), 
+                5px 5px 10px rgba(0, 0, 0, 0.2); /* ظلال متعددة لزيادة التأثير */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* تأثيرات انتقالية */
+}
+
+.text {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+    color: #070707;
+}
+
+nav {  
+   
+    background-color: #fcfbfb;
+    color: #070707;
+    padding: 10px 0;
+    top: 50px;
+    width: 100%;
+    z-index: 1000; /* لجعل شريط التنقل فوق المحتوى */
+}
+
+nav ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px; /* مسافة بين العناصر */
+
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-weight: 100px;
+    color: #070707;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0d7a2e;
+    color: #30d855;
+}
+
+.profile-intro {
+    width: 300px;
+    height: 300px;
+    margin: 20px 0; /* تخلص من المسافة العليا الكبيرة */
+    padding: 20px;
+    text-align: left; 
+    float: right; /* يحرك العنصر لجهة اليسار */
+    margin-right: 200px; /* مسافة من الجانب الأيسر لتجنب التداخل مع الصورة */
+    margin-top: 35px;
+}
+.profile-intro p{
+    font-size: 25px;
+    font-style: normal;
+    color: #070707;
+}
+.profile-intro h{
+    font-size: large;
+    font-weight: 100;
+    color: #0c0c0c;
+}
+.text1{
+    color: #070707;
+}
+
+
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.projects {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    background-color:#928f8f;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #070707;
+}
+
+.project a {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 16px;
+    color: #070707;
+    background-color: #817e7e;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+    background-color:#928f8f;
+}
+
+
+
+
+.personal-info {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.personal-info span {
+    font-weight: bold;
+    color: #333;
+}
+
+.personal-info p {
+    margin: 10px 0;
+}
+
+.personal-info-container {
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.contact-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    font-size: 18px;
+    color: #555;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+.exit-button {
+    margin-left: 1230px;
+    margin-bottom: 20px;
+    background-color: #edf3ef;
+    color: #0a0a0a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(90, 150, 219, 0.2);
+}
+
+.exit-button:hover {
+    background-color: #218838;
+}
